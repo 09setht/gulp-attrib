@@ -1,0 +1,35 @@
+{
+  "name": "gulp-attrib",
+  "version": "0.0.0",
+  "description": "Gulp plugin to modify file attributes",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/09setht/gulp-attrib.git"
+  },
+  "keywords": [
+    "gulp",
+    "read-only",
+    "attributes",
+    "hidden"
+  ],
+  "author": "Seth Tolle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/09setht/gulp-attrib/issues"
+  },
+  "homepage": "https://github.com/09setht/gulp-attrib",
+  "devDependencies": {
+    "chai": "~1.9.1",
+    "rewire": "~2.0.1",
+    "sinon": "~1.10.0"
+  },
+  "dependencies": {
+    "through2": "~0.4.2",
+    "gulp-util": "~2.2.14",
+    "async": "~0.9.0"
+  }
+}
